@@ -1,0 +1,5 @@
+1. from os import system
+2. system("cls")
+3. memoria kezelés, minden ifnó változókban eltárolva
+4. A python az típus független amiből következik dinamikus memoriakezelés
+5.
