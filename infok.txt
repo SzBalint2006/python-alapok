@@ -2,4 +2,6 @@
 2. system("cls")
 3. memoria kezelés, minden ifnó változókban eltárolva
 4. A python az típus független amiből következik dinamikus memoriakezelés
-5.
+5. használt beépített típusok :str; int; float ; list; bool;
+6.explicit típuskonverzió - én magyam írom be a kódba a típusváltoztatást :
+szam =

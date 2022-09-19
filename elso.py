@@ -1,19 +1,10 @@
+from os import system
 
-system("cls")
+sytstem("cls")
 
-elsovaltozo = 12
+# 2.feladat: prog_alapf.3
 
-#string konkatenáció
-kiir_1 = "A változó értéke: " + str(elsovaltozo)
+szam = int(input("kérek egy számot:"))
+kiir = f"A szám: {szam} és kétszerese: {2*szam}"
+
 print(kiir)
-
-# formattált sztring 1.verzió
-kiir_1 = "A változó értéke: {}" .format(elsovaltozo)
-print(kiir_1)
-
-# formattált sztring 2.verzió
-kiir_1 = f"A változó értéke:  {elsovaltozo}"
-print(kiir_1)
-
-kiir_1 = "A változó értéke: {1}" .format(elsovaltozo)
-print(kiir_1)
